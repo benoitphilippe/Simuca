@@ -103,7 +103,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Created by Maxime Golfier- 2A | G1 - Projet PHP de Rémi Malgouyres </p>
+            <p>Copyright &copy; Technologie Web Avancée </p>
         </div>
     </footer>
 
