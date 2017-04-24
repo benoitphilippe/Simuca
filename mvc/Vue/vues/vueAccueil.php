@@ -56,11 +56,8 @@
                         <a class="page-scroll" href="mvc/Vue/vues/vueConnexion.php">Connexion</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#actually">All</a>
+                        <a class="page-scroll" href="#actually">Les dernières musiques</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>  
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -75,7 +72,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Simuca</h1>
-                        <p class="intro-text">The way to access to your music.</p>
+                        <p class="intro-text">Aidons nos artistes indépendants</p>
                         <a href="#actually" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -85,13 +82,13 @@
         </div>
     </header>
 
-    <section id="actually" class="container content-section text-center">
+	<section class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <form class="form-signin" name="form2" method="post">
-                    <h2>Search song by ID : </h2>
+                 <form class="form-signin" name="form2" method="post">
+                    <h2>Chercher une musique : </h2>
                     <input name="idTitre" id="idTitre" type="text" class="form-control" autofocus>
-                    <button name="sub" id="sub" class="btn btn-lg btn-primary btn-block" type="submit">Search</button>
+                    <button name="sub" id="sub" class="btn btn-lg btn-primary btn-block" type="submit">Rechercher</button>
                 </form>
                 </br>
                 <?php 
@@ -99,32 +96,21 @@
                         $ctrl = new ControleurVisitor('getTitreById');
                     }
                 ?>
+            </div>
+        </div>
+    </section>
+
+    <section id="actually" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
                 </br>
-                <h2>All song : </h2>
+                <h2>Tous les sons : </h2>
                 <?php
                     $ctrl = new ControleurVisitor('getAllTitre');
                 ?>
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contactez moi :)</h2>
-                <p>Faîtes moi partager vos suggestions en me contactant par mail ou sur les réseaux sociaux</p>
-                <p><a href="mailto:maxgolfier@gmail.com">maxgolfier@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/maxgfr" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
 
     <!-- Footer -->
     <footer>

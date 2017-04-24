@@ -41,8 +41,8 @@ CREATE TABLE `titre` (
 --
 
 INSERT INTO `titre` (`idTitre`, `genre`, `nom`, `album`, `auteur`, `song`, `dateAjout`) VALUES
-('maxime', 'Rap', 'Humanoide', 'nekfeu-cyborg-cover.jpg', 'Nekfeu', 'Nekfeu_Humanoide.mp3', '2016-12-26'),
-('maxime3', 'Rap', 'RÃ©alitÃ©e augmentÃ©e', 'nekfeu-cyborg-cover.jpg', 'Nekfeu', 'Nekfeu_RÃ©alitÃ©_augmentÃ©e.mp3', '2016-12-26');
+('humanoide', 'Rap', 'Humanoide', 'nekfeu-cyborg-cover.jpg', 'Nekfeu', 'Nekfeu_Humanoide.mp3', '2017-04-26'),
+('realite', 'Rap', 'RÃ©alitÃ©e augmentÃ©e', 'nekfeu-cyborg-cover.jpg', 'Nekfeu', 'Nekfeu_RÃ©alitÃ©_augmentÃ©e.mp3', '2017-04-26');
 
 -- --------------------------------------------------------
 
